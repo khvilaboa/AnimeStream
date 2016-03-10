@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\Kevin\Documents\Visual Studio 2013\Projects\WindowsApplication2\WindowsApplication2\Release\|ftp://animestream.comuv.com/public_html/installation/|ftp://animestream.comuv.com/installation/|\\localhost\Users\Kevin\Desktop\Deploy\|http://animestream.comuv.com/installation/</PublishUrlHistory>
+    <InstallUrlHistory>http://animestream.comuv.com/installation/|http://animestream.comuv.com/installation|\\localhost\Users\Kevin\Desktop\Deploy\|http://localhost/AnimeStream/|http://astream.co.nf/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://animestream.comuv.com/installation/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>es-ES</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
