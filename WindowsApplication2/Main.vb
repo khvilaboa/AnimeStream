@@ -309,10 +309,11 @@ Public Class Main
             Return
         End If
 
-        animInitDownload()
 
+        animInitDownload()
         dh.add(currentAnime, seq)
-        downloadsForm.Show()
+
+        'downloadsForm.Show()
 
     End Sub
 
@@ -759,7 +760,7 @@ Public Class Main
         pcbAnim.BringToFront()
 
         Dim i As Integer, incL As Integer, incT As Integer, incW As Integer, incH As Integer
-        Dim nIter As Integer = 100
+        Dim nIter As Integer = 50
         incL = imgFront.Left - mnsToolbar.Items(0).Size.Width - 14
         incT = imgFront.Top - 5
         incH = imgFront.Height - mnsToolbar.Items(0).Size.Height
@@ -773,7 +774,6 @@ Public Class Main
             System.Windows.Forms.Application.DoEvents()
         Next
 
-        Thread.Sleep(150)
         Me.Controls.Remove(pcbAnim)
     End Sub
 
